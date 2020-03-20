@@ -7,15 +7,17 @@ import { GameListComponent } from './components/game-list/game-list.component';
 import { GameDetailComponent } from './components/game-detail/game-detail.component';
 import { EditGameComponent } from './components/edit-game/edit-game.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { LoginComponent } from './components/login/login.component';​
 
-import { RouterModule, Routes } from '@angular/router';​
+import { RouterModule, Routes } from '@angular/router';
 
 const appRoutes: Routes = [
   { path: 'primo', component: HomeComponent},
   { path: 'gameList', component: GameListComponent},
   { path: 'gameDetail', component: GameDetailComponent},
   { path: 'editGame', component: EditGameComponent},
-  { path: 'menu', component: MenuComponent}
+  { path: 'menu', component: MenuComponent},
+  { path: 'login', component: LoginComponent}
 ]
 
 @NgModule({
@@ -25,7 +27,8 @@ const appRoutes: Routes = [
     GameListComponent,
     GameDetailComponent,
     EditGameComponent,
-    MenuComponent
+    MenuComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
