@@ -12,7 +12,7 @@ import { LoginComponent } from './components/login/login.component';​
 import { RouterModule, Routes } from '@angular/router';
 
 const appRoutes: Routes = [
-  { path: 'primo', component: HomeComponent},
+  { path: 'home', component: HomeComponent},
   { path: 'gameList', component: GameListComponent},
   { path: 'gameDetail', component: GameDetailComponent},
   { path: 'editGame', component: EditGameComponent},
